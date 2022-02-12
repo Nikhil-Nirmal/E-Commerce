@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="https://zest-ui.netlify.app/Css/Component.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="./Css/login.css">
+</head>
+<body>
+    <header>
+        <section> 
+            <div id="container">
+                <div id="shopName"><a href="index.html"> <b>SHOPPY</b>Zone </a></div>
+                     <div id="search">
+                        <i class="fas fa-search search" id="search"></i>
+                        <input type="text" id="input" name="searchBox" placeholder="Search for Clothing and Accessories">
+                    </div>   
+                    <div id="collection">
+                        <div id="clothing"><a href="/"> Clothing
+                        </a></div>
+                        <div id="accessories"><a href="/"> Cart </a></div>
+                        <div id="wishlist"><a href="/"><i class="far fa-heart"></i></a></div>
+                        <div id="Login"><a href="./login.html">Login</i></a></div>
+                    </div>
+                    <img class="drawerView" onclick="openNav1()" src="https://zest-ui.netlify.app/Images/drawer2.png" alt="drawer">
+                    <div id="mySidenav1" class="sideNav">
+                    <a href="javascript:void(0)" class="closebtn1" onclick="closeNav1()">×</a>
+                    <ul class="list-mobile-new">
+                        <div id="search-2">
+                            <i class="fas fa-search search" id="search"></i>
+                            <input type="text" id="input-2" name="searchBox" placeholder="Search for Clothing and Accessories">
+                        </div>
+                        <div id="clothing"><a href="/"> CLOTHING </a></div>
+                        <div id="accessories"><a href="/"> Cart </a></div>
+                        <div id="wishlist"><a href="/"><i class="far fa-heart"></i></a></div>
+                        <div id="Login"><a href="./login.html">login</i></a></div>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </header>
+
+
+    <main class="login">
+        <label for="input-username">Username :
+
+            <input type="text" class="input">
+    
+         </label>
+    
+        <label for="input-password">Password :
+    
+            <input type="password" class="password">
+                            
+        </label>
+        <label for="Unchecked" class="label"><input class="normal-input" type="checkbox" name="component"> Remember me?</label>
+        <button class="btn-primary-outline">Login</button>
+        <span class="new-user">
+            New User? Sign up <a class="new-user-link" href="./signup.html">here...</a> 
+        </span>
+    </main>
+<script src="https://kit.fontawesome.com/31556aaf34.js" crossorigin="anonymous"></script>
+</body>
+</html>
