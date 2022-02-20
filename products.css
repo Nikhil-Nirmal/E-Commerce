@@ -1,0 +1,45 @@
+.product-listing{
+    align-items: center;
+    width: 90%;
+    background-color: #E5E5E5;
+    margin: 2rem auto;
+    padding:1rem 0px;
+}
+.btn-primary {
+    margin: 1rem;
+}
+.card-ecommerce {
+    display: inline-block;
+    margin:1rem 4.7rem;
+}
+input {
+    background-color: black;
+}
+
+@media(max-width: 750px)
+{
+    #shopName
+    {
+        font-size: 28px;
+    }
+    .drawerView{
+        top: -1.3rem;
+        right:1rem;
+    }
+    .userIcon
+    {
+        font-size: 35px;
+    }
+    .addedToCart
+    {
+        font-size: 1.2em;
+        margin: 10px 20px;
+    }
+    #input {
+        width: 16rem;
+    }
+    #containerSlider {
+        margin-right:-26%;
+        padding-left: 1rem;
+    }
+}
