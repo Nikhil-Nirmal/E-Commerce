@@ -171,21 +171,28 @@ a {
     border: black 1px solid;
     margin: 3rem;
 }
+.button-container {
+    width: 11%;
+    margin: auto;
+}
 .btn-primary{
-    color: white!important;
-    background-color: transparent!important;
-    position: absolute;
-    top: 56rem;
-    left: 44rem;
-    padding: 1rem 2rem!important;
-    border: 2px solid !important;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 1rem 2rem;
+    border: 2px solid rgb(0, 0, 0);
 }
 .btn-primary:hover{
-    background-color: rgb(0, 0, 0)!important;
+    padding: 1rem 2rem;
+    color: white;
+    background-color: rgb(0, 0, 0);
 }
 .banner-img:hover {
     filter: grayscale(0);
     transition: 1s;
+}
+#slidingImage-3{
+    margin-top: -6rem;
+    margin-bottom: 2rem ;
 }
 /* ----------------------------- MEDIA QUERY --------------------------- */
 

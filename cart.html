@@ -4,22 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign-Up</title>
+    <link rel="stylesheet" href="cart.css">
     <link rel="stylesheet" href="https://zest-ui.netlify.app/Css/Component.css">
-    <!-- <link rel="stylesheet" href="style.css"> -->
-    <link rel="stylesheet" href="./Css/login.css">
+    <title>Document</title>
 </head>
 <body>
     <header>
-        <section> 
+        <section>
+            <!-- MAIN CONTAINER -->
             <div id="container">
+                <!-- SHOP NAME -->
                 <div id="shopName"><a href="index.html"> <b>SHOPPY</b>Zone </a></div>
-                     <div id="search">
+                    <!-- SEARCH SECTION -->
+                    <div id="search">
                         <i class="fas fa-search search" id="search"></i>
                         <input type="text" id="input" name="searchBox" placeholder="Search for Clothing and Accessories">
                     </div>   
                     <div id="collection">
-                        <div id="clothing"><a href="/"> Clothing
+                        <div id="clothing"><a href="./clothing.html"> Clothing
                         </a></div>
                         <div id="accessories"><a href="./cart.html"> Cart </a></div>
                         <div id="wishlist"><a href="./whislist.html"><i class="far fa-heart"></i></a></div>
@@ -37,37 +39,47 @@
                         <div id="accessories"><a href="./cart.html"> Cart </a></div>
                         <div id="wishlist"><a href="./whislist.html"><i class="far fa-heart"></i></a></div>
                         <div id="Login"><a href="./login.html">login</i></a></div>
+                        
                     </ul>
                 </div>
             </div>
         </section>
     </header>
 
+    <section class="main">
+        <div class="card-horizontal">
+            <div class="split">
+                <img src="./img/img9.jpg" alt="/" id="img-cart">
+                <div class="card-content">
+                    <h1 class="title">Zara-Men</h1>
+                    <h3 class="description">Premium Red Velvet Jacket</h3>
+                    <h3 class="description">Quantity :</h3><button class="quantityMinus">-</button> <input placeholder="1" class="quantity" type="text"> <button class="quantityAdd">+</button>
+                    <button class="btn-error">Remove From Cart</button>
+                    <button class="btn-success">Move to wishlist</button>
+                </div>
+            </div>
+        </div>
 
-    <main class="signup">
-        
-        <label for="input-username">Username :
-
-            <input type="text" class="input">
-    
-        </label>
-    
-        <label for="input-password">Password :
-    
-            <input type="password" class="password">
-                            
-        </label>
-        <label for="input-password">Confirm Password :
-    
-            <input type="password" class="password">
-                            
-        </label>
-        <label for="Unchecked" class="label"><input class="normal-input" type="checkbox" name="component"> I Agree All the terms and conditions</label>
-        <button class="btn-primary-outline">Sign-Up</button>
-        <span class="new-user">
-            Already a user?<a class="new-user-link" href="./login.html">here...</a> 
-        </span>
-    </main>
+        <div class="cart-prices">
+            <p class="title">PRICE-DETAILS</p>
+            <hr>
+            <div class="priceBox">
+                <p >Discount :</p>
+                <span >₹999</span>
+            </div>
+            <div class="priceBox">
+                <p >Delivery Charges :</p>
+                <span>₹99</span>
+            </div>
+            <hr>    
+            <div class="priceBox">
+                <p >Total Amount :</p>
+                <span >₹4099</span>
+            </div>
+            
+            <button class="btn-primary">Place Order</button>
+        </div>
+    </section>
 <script src="https://kit.fontawesome.com/31556aaf34.js" crossorigin="anonymous"></script>
 </body>
 </html>
