@@ -18,6 +18,21 @@ body
             text-align: center;
             align-content: center;
         }
+        #containerSlider2
+    {
+            margin: auto;
+            width: 90%;
+            text-align: center;
+            padding: 2rem 0rem;
+            box-sizing: border-box;
+        }
+        #containerSlider2 img
+        {
+            width: 100%;
+            height: 140%;
+            text-align: center;
+            align-content: center;
+        }
 #badge
 {
     position: absolute;
