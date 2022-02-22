@@ -146,17 +146,18 @@ a {
 }
 
 .login input {
-    margin: 1.5rem 0px;
-    padding: 0.5rem 1rem;
+    margin: 0rem 0px;
+    padding: 1rem 1rem;
 }
 label {
     font-size: 1.3rem;
 }
 
 .btn-primary-outline{
+    border-radius:5px;
     display: block;
     margin: 0.8rem 0px;
-    width: 12.3rem;
+    width: 17.5rem;
 }
 .new-user {
     margin: 1rem 0px;
@@ -168,6 +169,15 @@ label {
 }
 
 .new-user-link:hover {
+    color: #3B82F6;
+    text-decoration: underline;
+}
+
+.forgot-pass-link {
+    color: #ff2d2d;
+}
+
+.forgot-pass-link:hover {
     color: #3B82F6;
     text-decoration: underline;
 }
@@ -185,24 +195,30 @@ label {
 }
 
 .login input[type=text] {
+    border-radius:5px;
+    border: 2px solid black;
     width: 15rem;
-    margin: 1.5rem 0px;
+    margin: 0.5rem 0px;
     padding: 0.5rem 1rem;
 }
 .login input[type=password] {
+    border-radius:5px;
+    border: 2px solid black;
     width: 15rem;
-    margin: 1.5rem 0px;
+    margin: 0.5rem 0px;
     padding: 0.5rem 1rem;
 }
 
 .signup input[type=text] {
+    border-radius:5px;
     width: 15rem;
-    margin: 1.5rem 0px;
+    margin: 0.5rem 0px;
     padding: 0.5rem 1rem;
 }
 .signup input[type=password] {
+    border-radius:5px;
     width: 15rem;
-    margin: 1.5rem 0px;
+    margin: 0.5rem 0px;
     padding: 0.5rem 1rem;
 }
 
