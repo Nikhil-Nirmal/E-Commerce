@@ -131,13 +131,13 @@ a {
 
 #img-cart {
     background-color: #f1f1f1;
-    width:14rem  ;
+    width:16rem;
     height: auto;
 }
 
 .card-horizontal{
     background: #f1f1f1;    
-    width: 35.5%;
+    width: 50%;
     border-radius: 5px;
     margin: 0.8rem;
 }
@@ -153,22 +153,27 @@ a {
 
 .quantityAdd {
     padding:2px 7px;
+    border: 1px solid black;
+    background: white;
 }
 
 .quantityMinus {
     padding:2px 7px;
+    border: 1px solid black;
+    background: white;
 }
 
 .btn-error {
     width: 13rem;
-    margin: 3rem 0px 0px 0px;
+    margin: 3rem 0px 0px 2rem;
     display: block;
+    color: #ffffff;
 }
 
 .btn-success {
-    color: #f1f1f1;
+    color: #ffffff;
     padding: 0.4rem;
-    margin: 1.5rem 15px 0px 0px;
+    margin: 1.5rem 15px 0px 2rem;
     width: 13rem;
     display: block;
 }
@@ -189,5 +194,10 @@ a {
 }
 
 .btn-primary {
+    color: white;
     width: 15rem;
+}
+
+button {
+    border: none;
 }
